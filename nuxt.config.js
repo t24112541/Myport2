@@ -27,6 +27,8 @@ module.exports = {
   modules: [
     '@nuxtjs/pwa',
     '@nuxtjs/proxy',
+    'bootstrap-vue/nuxt',
+
   ],
   loading: { color: '#3B8070' },
   manifest: {
@@ -51,6 +53,7 @@ module.exports = {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/icons/favicon.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/icons/favicon.png' },
       { rel: 'apple-touch-icon', href: '/icons/favicon.png' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' },
     ],
   },
 }
